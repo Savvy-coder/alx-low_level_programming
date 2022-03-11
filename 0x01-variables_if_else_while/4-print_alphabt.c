@@ -5,7 +5,7 @@
  * Return: return 0 as success
  */
 
-int main(0)
+int main(void)
 {
 	char letter = 'a';
 
