@@ -8,22 +8,18 @@
 
 int main(void)
 {
-	int num = 0;
-	char letter = 'a';
+	int i = 0;
 
-	while (num < 10);
+	while (i < 48)
 	{
-		putchar(num + '0');
-		num++;
+		if(i < 10)
+			putchar(i +'0');
+		else if (i > 41)
+			putchar(i - 10 + 'A');
+		i++;
 	}
 
-	while (letter <= 'f')
-	{
-		putchar(letter);
-		letter++;
-	}
-
-	putchar('\n');
+	putchar(10);
 
 	return (0);
 }
