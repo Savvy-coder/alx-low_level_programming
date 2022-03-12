@@ -3,7 +3,7 @@
 /**
  * main - Entry Point
  * Description: numbers that print three digits
- * Return: returns 0 as success 
+ * Return: returns 0 as success
  */
 
 int main(void)
