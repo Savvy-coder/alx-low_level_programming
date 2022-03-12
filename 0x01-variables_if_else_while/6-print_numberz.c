@@ -7,15 +7,17 @@
 
 int main(void)
 {
-	int num = 0;
+	int i;
 
-	while ( num < 10);
+	i = 48;
+
+	while (i < 58)
 	{
-		putchar(num + '0');
-		num++;
+		putchar(i);
+		i++;
 	}
 
-	putchar('\n');
+	putchar(10);
 
 	return (0);
 }
