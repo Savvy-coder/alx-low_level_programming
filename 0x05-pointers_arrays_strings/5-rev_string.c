@@ -24,11 +24,11 @@ void rev_string(char *s)
 
 	{
 
-		f (s[count] == '\0')
-													break;
-												count++;
+		if (s[count] == '\0')
+			break;
+		count++;
 
-											}
+	}
 
 	str = s;
 
@@ -41,9 +41,10 @@ void rev_string(char *s)
 		{
 			
 			temp = *(str + j);
-			*(str + j) = *(str + (j - 1));							*(str + (j - 1)) = temp;
-																						}
+			*(str + j) = *(str + (j - 1));
+			*(str + (j - 1)) = temp;
+																	}
 
-											}
+	}
 
 }
