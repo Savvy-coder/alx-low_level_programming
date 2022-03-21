@@ -22,7 +22,7 @@ void print_rev(char *s)
 
 		if (s[count] == '\0')
 
-		break;
+			break;
 		count++;
 
 	}
@@ -31,5 +31,5 @@ void print_rev(char *s)
 
 		_putchar(s[count]);
 
-		_putchar('\n');
+	_putchar('\n');
 }
