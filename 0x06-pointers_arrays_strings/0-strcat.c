@@ -1,7 +1,6 @@
 #include "main.h"
 
 
-
 /**
  * *_strcat - function commute srtings
  *
@@ -11,7 +10,6 @@
  *
  * Return: return value of dest
  */
-
 
 
 char *_strcat(char *dest, char *src)
@@ -43,7 +41,6 @@ char *_strcat(char *dest, char *src)
 		j++;
 		
 		i++;
-
 	}
 
 	dest[i] = '\0';
