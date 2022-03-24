@@ -39,7 +39,6 @@ char *_strcat(char *dest, char *src)
 		dest[i] = src[j];
 
 		j++;
-		
 		i++;
 	}
 
