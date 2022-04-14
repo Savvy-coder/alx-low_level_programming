@@ -1,4 +1,5 @@
 #include "variadic_functions.h"
+#include <stdio.h>
 
 /**
  * print_numbers - prints numbers.
@@ -7,6 +8,7 @@
  *
  * Return: no return.
  */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list valist;
